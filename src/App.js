@@ -17,7 +17,7 @@ import PostProvider from "./Context/PostProvider";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<RootLayout />}>
+      <Route path="/" >
         <Route path="/" element={<Dashboard />} />
         <Route path="/board/:id" element={<Posts />} />
       </Route>
