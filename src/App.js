@@ -18,7 +18,7 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
-        <Route path="dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard />} />
         <Route path="/board/:id" element={<Posts />} />
       </Route>
     ));
