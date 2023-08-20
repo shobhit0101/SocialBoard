@@ -4,9 +4,10 @@ import {
   createBrowserRouter,
   RouterProvider,
   Route,
-  createRoutesFromElements
+  createRoutesFromElements,
+  Navigate
 } from "react-router-dom";
-import RootLayout from "./Layout/RootLayout";
+// import RootLayout from "./Layout/RootLayout";
 import Dashboard from "./pages/Dashboard";
 import Posts from "./pages/Posts";
 import BoardProvider from "./Context/BoardProvider";
@@ -14,11 +15,10 @@ import PostProvider from "./Context/PostProvider";
 
 
 function App() {
-
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<RootLayout />}>
-        <Route path="dashboard" element={<Dashboard />} />
+      <Route path="/" >
+        <Route path="/" element={<Dashboard />} />
         <Route path="/board/:id" element={<Posts />} />
       </Route>
     ));
