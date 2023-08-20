@@ -34,7 +34,7 @@ const PostNavbar = ({ board, toggleShowBookmarked, onSearch }) => {
     return <>
         <div className={styles.postNavbar_container}>
             <div className={styles.logo_container}>
-                <Link rel="stylesheet" to="/dashboard" >
+                <Link rel="stylesheet" to="/" >
                     <img src={vector} alt="" />
                 </Link>
                 <div className={styles.FillLogo_container}>
