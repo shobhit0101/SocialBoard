@@ -1,0 +1,17 @@
+/* dashboard.module.css */
+.MyBoardText {
+    margin-left: 3.44rem;
+    margin-top: 2.56rem;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.75rem;
+}
+
+.dashboard_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1.44rem;
+}
