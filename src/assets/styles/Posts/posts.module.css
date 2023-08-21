@@ -53,13 +53,11 @@
 }
 
 .empty_state_container {
-    position: absolute;
-    top: 15rem;
-    left: 43vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 70vh;
 
 }
 
